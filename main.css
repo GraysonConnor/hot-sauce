@@ -1,0 +1,74 @@
+body {
+  color: #000000
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 45px;
+  height: 280px
+}
+
+.featured {
+  padding: 300px;
+}
+
+.main-content {
+  border: 1px solid black;
+  padding: 400px;
+}
+
+.footer {
+border: 1px solid black;
+padding: 100px;
+}
+
+.header-nav {
+  list-style-type: none;
+  margin-top: 87px;
+  padding: 25px;
+  background-color: #eeeeee;
+  width: 100%;
+}
+
+.header-nav li {
+  display: inline;
+  font-size: 25px;
+  padding-left: 113px;
+}
+
+  #logo {
+    text-align: center;
+    padding-left: 300px;
+    padding-top: 45px;
+    width: 950px;
+    height: 190px;
+  }
+
+  .body-nav ul {
+    text-align: center;
+    width: 100%;
+
+
+  }
+
+  .body-nav li {
+    display: inline;
+    font-size: 45px;
+    margin: 80px;
+    border: 1px solid black;
+
+    }
+
+
+
+#body-nav-shop {
+
+}
+
+#body-nav-locator {
+}
+
+#body-nav-press {
+
+}
