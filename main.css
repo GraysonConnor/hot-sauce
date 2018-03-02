@@ -22,6 +22,15 @@ border: 1px solid black;
 padding: 100px;
 }
 
+.line-separator {
+  border: 0.5px solid black;
+  width: 100%;
+}
+
+
+
+
+
 .header-nav {
   list-style-type: none;
   padding: 20px 0px 20px 390px;
@@ -58,10 +67,18 @@ padding: 100px;
   #featured-header{
     font-family: Oswald, sans-serif;
     font-weight: bold;
+    font-size: 2.75em;
     text-align: center;
-    margin-top: -150px;
-    margin-bottom: 105px;
+    margin-top: -100px;
+    margin-bottom: 80px;
     color: #c11f2b;
+  }
+
+  .featured img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   .body-nav ul {
