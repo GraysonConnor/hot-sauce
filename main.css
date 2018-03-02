@@ -5,7 +5,6 @@ body {
 }
 
 .header {
-  padding: 45px;
   height: 280px
 }
 
@@ -25,24 +24,44 @@ padding: 100px;
 
 .header-nav {
   list-style-type: none;
-  margin-top: 87px;
-  padding: 25px;
+  padding: 20px 0px 20px 390px;
   background-color: #eeeeee;
   width: 100%;
+  margin: 30px auto 0 0;
+
 }
 
 .header-nav li {
   display: inline;
-  font-size: 25px;
-  padding-left: 113px;
+  font-size: 23px;
+  margin: 0 20px 0 20px;
+  font-family: oswald, sans-serif;
+  color: #333333;
+  font-weight: bold;
+
 }
+
+.header-nav li:hover {
+  text-decoration: underline;
+  color: #c11f2b;
+}
+
 
   #logo {
     text-align: center;
-    padding-left: 300px;
+    padding-left: 350px;
     padding-top: 45px;
     width: 950px;
     height: 190px;
+  }
+
+  #featured-header{
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -150px;
+    margin-bottom: 105px;
+    color: #c11f2b;
   }
 
   .body-nav ul {
@@ -57,6 +76,7 @@ padding: 100px;
     font-size: 45px;
     margin: 80px;
     border: 1px solid black;
+    font-weight: bold;
 
     }
 
